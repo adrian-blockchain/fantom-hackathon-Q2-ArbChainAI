@@ -1,22 +1,22 @@
-# arbCHAINAI
+# ArbChain AI
 
 ![arbCHAINAI Logo](public/logo.png)
 
 ## Overview
 
-arbCHAINAI is a revolutionary web-based platform that combines blockchain technology and artificial intelligence to automate the process of legal arbitration. It provides a cost-effective and efficient solution for resolving disputes between parties involved in collaborative business projects. By leveraging trusted third parties and advanced AI algorithms, arbCHAINAI aims to streamline the arbitration process and bring justice to the digital era.
+ArbChain AI is a revolutionary web-based platform that combines blockchain technology and artificial intelligence to automate the process of legal arbitration. It provides a cost-effective and efficient solution for resolving disputes between parties involved in collaborative business projects. By leveraging trusted third parties and advanced AI algorithms, arbCHAINAI aims to streamline the arbitration process and bring justice to the digital era.
 
 ## Key Features
 
-- **Automated Arbitration**: arbCHAINAI automates the arbitration process, reducing the reliance on traditional court proceedings and their associated costs and delays.
+- **Automated Arbitration**: ArbChain AI automates the arbitration process, reducing the reliance on traditional court proceedings and their associated costs and delays.
 - **Trusted Third Parties**: The platform utilizes trusted third parties, such as law firms, to mediate and judge disputes impartially.
 - **Secure Data Storage**: All evidence, documents, and judgments are securely recorded on the blockchain and IPFS, ensuring transparency, immutability, and tamper-proof integrity.
-- **AI-powered Legal Statements**: arbCHAINAI's advanced AI algorithms analyze case descriptions and convert them into comprehensive legal statements, aiding the arbitration process.
+- **AI-powered Legal Statements**: ArbChain AI's advanced AI algorithms analyze case descriptions and convert them into comprehensive legal statements, aiding the arbitration process.
 - **Future Integration of Jury System**: The project envisions the future integration of a diverse jury system, allowing individuals from various backgrounds to participate in the arbitration process.
 
 ## Installation
 
-To install and run arbCHAINAI locally, please follow these steps:
+To install and run ArbChain AI locally, please follow these steps:
 
 1. Clone the repository:
 
@@ -41,21 +41,21 @@ npm run dev
 
 ## Contributing
 
-We welcome contributions from the open source community to enhance arbCHAINAI. To contribute, please follow these steps:
+We welcome contributions from the open source community to enhance ArbChain AI. To contribute, please follow these steps:
 
 1. Fork the repository.
 2. Create a new branch for your feature or bug fix.
 3. Commit your changes.
 4. Push your branch to your forked repository.
-5. Submit a pull request to the main arbCHAINAI repository.
+5. Submit a pull request to the main ArbChain AI repository.
 
 ## License
 
-arbCHAINAI is released under the [MIT License](LICENSE).
+ArbChain AI is released under the [MIT License](LICENSE).
 
 ## Contact
 
-For any inquiries or suggestions, please contact the arbCHAINAI team at contact@arbchainai.com.
+For any inquiries or suggestions, please contact the ArbChain AI team at contact@arbchainai.com.
 
 Join us in revolutionizing legal arbitration with blockchain and AI!
 
