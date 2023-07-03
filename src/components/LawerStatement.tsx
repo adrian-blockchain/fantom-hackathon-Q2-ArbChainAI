@@ -45,7 +45,7 @@ export default function LawerStatement({setLawerStatement,
             <div className="relative mx-auto">
                 <div className="h-auto py-5 w-screen px-2 overflow-hidden bg-white border-b-2 border-gray-300 rounded-lg shadow-2xl px-3">            {isLoading ?  (
                 <div className="mx-6 ">
-                    <h1 className="text-black text-2xl my-4">Lawer Statement:</h1>
+                    <h1 className="text-black text-2xl my-4">Lawyer Statement:</h1>
                     <Textarea
                         size={"xl"}
                         rows={20}

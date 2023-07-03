@@ -1,13 +1,9 @@
 import {Blob, NFTStorage} from 'nft.storage'
 
 
-
-
-
-
 export const storeToIpfs = async (data:string): Promise<string> =>{
     try {
-        const NFT_STORAGE_TOKEN =process.env.IPFS_API_KEY
+        const NFT_STORAGE_TOKEN ="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWQ6ZXRocjoweGVkZjg5YTk0RTIzOUZlNTIxRTM0NGZDMTM1NmExNTliNjZDNTU0YTciLCJpc3MiOiJuZnQtc3RvcmFnZSIsImlhdCI6MTY4ODE1NDA4MTIyNywibmFtZSI6ImFyYmNoYWluYWkifQ.QDEH2RCreQuTjWNiCTQLa7OKwYh3S4sF3lE2Srvh5rs"
         const client = new NFTStorage({ token: NFT_STORAGE_TOKEN })
 
         const blobData = new Blob([data])
