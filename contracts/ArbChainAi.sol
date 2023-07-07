@@ -137,8 +137,6 @@ contract ArbChainAi {
     require(cases[_caseId].caseCreator != address(0), "Case does not exist");
 
     ArbCase storage arbCase = cases[_caseId];
-    StatementProof storage caseCreatorProof = caseCreatorsProofs[_caseId];
-    StatementProof storage secondPartProof = secondPartProofs[_caseId];
 
     return (
     arbCase.caseCreator,

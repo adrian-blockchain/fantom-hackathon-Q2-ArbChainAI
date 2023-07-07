@@ -1,7 +1,6 @@
 import { HardhatUserConfig } from "hardhat/config";
-import "@nomicfoundation/hardhat-toolbox";
 
-const FT_TEST_PRIVATE_KEY =process.env.FT_TEST_PRIVATE_KEY
+
 const config: HardhatUserConfig = {
 
   solidity: "0.8.17",
@@ -10,7 +9,7 @@ const config: HardhatUserConfig = {
     fantomTestnet: {
       url: "https://rpc.testnet.fantom.network",
       chainId: 0xfa2,
-      accounts:[FT_TEST_PRIVATE_KEY],
+      accounts:[`0x1dd7e9df8048bf39a3577245983022ce6a390aee5ed61767662d7093e7778dea`],
       blockGasLimit: 1000000004297200 // whatever you want here
     },
   },

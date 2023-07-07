@@ -54,9 +54,9 @@ export default function Home() {
       case 2:
         return <Comment setStatement={setStatement} handleStep={handleStep} caseId={caseId} setLawerStatement={setLawerStatement} lawerStatement={lawerStatement} />;
       case 3:
-        return <LawerStatement setLawerStatement={setLawerStatement} lawerStatement={lawerStatement} handleStep={handleStep} caseId={caseId} statement={statement}/>;
+        return <LawerStatement setLawerStatement={setLawerStatement}  handleStep={handleStep} lawerStatement={lawerStatement} caseId={caseId} statement={statement}/>;
       case 4:
-        return <Judgement caseId={caseId} pushToStatements={pushToStatements} />;
+        return <Judgement caseId={caseId}  />;
       default:
         return <Connect setAccount={setAccount} handleStep={handleStep} />;
     }
@@ -65,7 +65,7 @@ export default function Home() {
   return (
       <div className="h-screen pt-10 max-w-screen-2xl text-center items-center justify-between ml-30 mr-30" style={{ backgroundImage: "linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%)" }}>
           <Header address={account}/>
-          <div className="mb-auto">
+          <div className="mb-auto ">
         {conditionalComponent()}
           </div>
           <div className="flex-grow static bottom-0">

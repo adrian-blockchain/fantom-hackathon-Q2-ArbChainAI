@@ -30,7 +30,7 @@ export async function init(): Promise<void> {
 
     // Connect to the Ethereum network
     signer = provider.getSigner();
-    const contractAddress = "0x0F908aEBac676f27FE3E7da1382790255d066D0b";
+    const contractAddress = "0xc06E4919F94BBff4984BEB2a4D40c5D933434459";
 
     // Create an instance of the contract
     contract = new ethers.Contract(contractAddress, ArbChainAi.abi, signer);

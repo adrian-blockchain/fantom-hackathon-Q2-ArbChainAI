@@ -11,6 +11,7 @@ export default function Connect({ setAccount, handleStep }: { setAccount: (accou
 
 
     const connectWallet = async () => {
+        // eslint-disable-next-line
         const provider = new ethers.providers.Web3Provider((window as any).ethereum)
         const network = await provider.getNetwork();
         console.log(network)

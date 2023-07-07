@@ -21,7 +21,7 @@ export default function Footer () {
                         <li><a href="#_" className="px-2 text-gray-500 hover:text-gray-600">FAQ's</a></li>
                         <li><a href="#_" className="px-2 text-gray-500 hover:text-gray-600">Terms</a></li>
                     </ul>
-                    <p className="mt-3 text-xs leading-tight text-gray-500 sm:mt-0"> © Copyright 2021</p>
+                    <p className="mt-3 text-xs leading-tight text-gray-500 sm:mt-0"> © Copyright 2023</p>
 
                 </div>
             </div>

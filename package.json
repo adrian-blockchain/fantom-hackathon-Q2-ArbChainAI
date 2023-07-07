@@ -12,6 +12,7 @@
     "@microsoft/fetch-event-source": "^2.0.1",
     "@nextui-org/react": "^1.0.0-beta.13",
     "@nomicfoundation/solidity-analyzer": "^0.1.1",
+    "@typechain/ethers-v5": "^11.0.0",
     "@types/react": "18.2.14",
     "@types/react-dom": "18.2.6",
     "autoprefixer": "10.4.14",

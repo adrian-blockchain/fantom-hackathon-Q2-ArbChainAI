@@ -3,19 +3,14 @@ import { Spinner , Textarea} from '@nextui-org/react';
 import {updateStatementProof} from "../utils/contractInteraction"
 import {storeToIpfs} from "../utils/ipfsStorage";
 
-interface LawerStatementProps {
-    setLawerStatement: (value: string) => void;
-    handleStep: () => void;
-    statement: string;
-    caseId: string;
-}
+
 
 export default function LawerStatement({setLawerStatement,
                                            handleStep,
                                            lawerStatement,
                                            caseId,
     statement
-                                       }: LawerStatementProps) {
+                                       }) {
     const [isLoading, setIsLoading] = useState(true);
 
     const handleInputChange = (event: React.ChangeEvent<HTMLTextAreaElement>) => {
