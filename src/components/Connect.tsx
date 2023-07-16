@@ -1,8 +1,5 @@
-import { useEffect, useState } from "react";
+import {  useState } from "react";
 import { ethers } from "ethers";
-import path from "path";
-import * as fs from "fs";
-import ArbChainAi from "../artifacts/contracts/ArbChainAi.sol/ArbChainAi.json";
 
 export default function Connect({ setAccount, handleStep }: { setAccount: (account: string) => void, handleStep: () => void }) {
     const [connected, setConnected] = useState<boolean>(false);
