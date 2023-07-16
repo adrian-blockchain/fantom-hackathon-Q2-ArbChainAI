@@ -26,10 +26,6 @@
     "tailwindcss": "3.3.2"
   },
   "devDependencies": {
-
-    "@typechain/ethers-v6": "^0.4.0",
-    "@typechain/hardhat": "^8.0.0",
-    "@typechain/truffle-v5": "^8.0.3",
     "@types/chai": "^4.3.5",
     "@types/mocha": "^10.0.1",
     "@types/node": "^20.3.2",
